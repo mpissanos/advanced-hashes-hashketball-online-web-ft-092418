@@ -3,7 +3,7 @@
   :home_team => {
     :name => "Brooklyn Nets",
     :colors => ["Black", "White"],
-    :players => [
+    :players => {
       {
       :name => "Alan Anderson",
       :number => 0,
@@ -59,12 +59,12 @@
       :blocks => 11,
       :slam_dunks => 1
       }
-    ]
+    }
   },
   :away_team => {
     :name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
-    :players => [
+    :players => {
       {
       :name => "Jeff Adrien",
       :number => 4,
@@ -120,7 +120,7 @@
       :blocks => 5,
       :slam_dunks => 12
       }
-    ]
+    }
   }
 }
 end
