@@ -4,8 +4,8 @@
     :name => "Brooklyn Nets",
     :colors => ["Black", "White"],
     :players => {
-      {
-      :name => "Alan Anderson",
+      
+      "Alan Anderson" => {
       :number => 0,
       :shoe => 16,
       :points => 22,
@@ -15,8 +15,8 @@
       :blocks => 1,
       :slam_dunks => 1,
       },
-      {
-      :name => "Reggie Evans",
+      
+      "Reggie Evans" => {
       :number => 30,
       :shoe => 14,
       :points => 12,
@@ -26,8 +26,8 @@
       :blocks => 12,
       :slam_dunks => 7,
       },
-      {
-      :name => "Brook Lopez",
+      
+      "Brook Lopez" => {
       :number => 11,
       :shoe => 17,
       :points => 17,
@@ -37,8 +37,8 @@
       :blocks => 1,
       :slam_dunks => 15
       },
-      {
-      :name => "Mason Plumlee",
+      
+      "Mason Plumlee" => {
       :number => 1,
       :shoe => 19,
       :points => 26,
@@ -48,8 +48,8 @@
       :blocks => 8,
       :slam_dunks => 5
       },
-      {
-      :name => "Jason Terry",
+      
+      "Jason Terry" => {
       :number => 31,
       :shoe => 15,
       :points => 19,
@@ -65,8 +65,8 @@
     :name => "Charlotte Hornets",
     :colors => ["Turquoise", "Purple"],
     :players => {
-      {
-      :name => "Jeff Adrien",
+      
+      "Jeff Adrien" => {
       :number => 4,
       :shoe => 18,
       :points => 10,
@@ -76,8 +76,8 @@
       :blocks => 7,
       :slam_dunks => 2
       },
-      {
-      :name => "Bismak Biyombo", 
+      
+      "Bismak Biyombo" => { 
       :number => 0,
       :shoe => 16,
       :points => 12,
@@ -87,8 +87,8 @@
       :blocks => 15,
       :slam_dunks => 10
       },
-      {
-      :name => "DeSagna Diop", 
+      
+      "DeSagna Diop" => { 
       :number => 2,
       :shoe => 14,
       :points => 24,
@@ -98,8 +98,8 @@
       :blocks => 5,
       :slam_dunks => 5
       },
-      {
-      :name => "Ben Gordon",
+      
+      "Ben Gordon" => {
       :number => 8,
       :shoe => 15,
       :points => 33,
@@ -109,8 +109,8 @@
       :blocks => 1,
       :slam_dunks => 0
       },
-      {
-      :name => "Brendan Haywood",
+      
+      "Brendan Haywood" => {
       :number => 33,
       :shoe => 15,
       :points => 6,
