@@ -166,7 +166,7 @@ end
 def team_names
  names = []
   game_hash. each do |location, info|
-    names << game_hash[info][:team_name]
+    names << game_hash[location][:team_name]
     names
   end
 end
