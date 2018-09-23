@@ -177,8 +177,8 @@ def player_numbers(team)
     if game_hash[location][:team_name] == team
       numbers << game_hash[location][info][:players][:number]
     end
-    numbers
   end
+  numbers
 end
       
     
