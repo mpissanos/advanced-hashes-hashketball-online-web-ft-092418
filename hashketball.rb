@@ -178,8 +178,8 @@ def player_numbers(team)
         info.each do |attribute, data|
       numbers << game_hash[info][:players][:number]
     end
+    numbers
   end
-  numbers
   end
 end
       
