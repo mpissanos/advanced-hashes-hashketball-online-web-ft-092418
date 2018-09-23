@@ -150,7 +150,7 @@ end
 def team_colors(team_name)
   game_hash.each do |location, info|
     if info.include?(team_name)
-      return game_hash[location][info][:colors]
+      return game_hash[location][info][:colors][0..100]
     end
   end
 end
