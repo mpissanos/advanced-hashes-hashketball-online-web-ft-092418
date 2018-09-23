@@ -139,7 +139,7 @@ end
 
 def shoe_size(name)
   game_hash.each do |location, info|
-    info.each do |attribut, data|
+    info.each do |attribute, data|
       if data.include?(name)
         return game_hash[location][attribute][name][:shoe]
       end
