@@ -174,8 +174,9 @@ end
 def player_numbers(team)
  numbers = []
   game_hash.each do |location, info|
-    if game_hash[location][:team_name] == team
-      numbers << game_hash[location][info][:players][:number]
+    info.each do |attribute, data|
+      if attribute.include?(team)
+      numbers << game_hash[location][attribute][:players][:number]
     end
   end
   numbers
